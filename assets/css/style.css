@@ -9,7 +9,6 @@
 
 
 body{
-    background-color: aqua;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
@@ -56,4 +55,45 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Hero image and cover box */
+#hero-outer {
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background: url('/assets/images/Backyard Dinner Party-28.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Kalam', 'Open Sans';
+    letter-spacing: 2px;
+    text-align: center;
+
+    width: 600px;
+    height: fit-content;
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: rgba(11, 156, 49, 0.4);
+    border-radius: 20px;
+
+    bottom: 80px;
+    left: 10px;
+
+    position: absolute;
 }

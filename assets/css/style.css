@@ -1,5 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poltawski+Nowy:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Merienda:wght@300&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
 
 body{
     background-color: aqua;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* Headings and Logo */
+h1, h2 {
+    font-family: 'Kalam', sans-serif;
+    letter-spacing: 4px;
+    color: green;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+/* Navigation Links */
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }

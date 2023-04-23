@@ -95,3 +95,75 @@ h1, h2 {
 
     position: absolute;
 }
+
+#our_services {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.hr1 {
+    border: 5px solid #5bb450;
+    border-radius: 10px;
+    width: 90%;
+    margin: 40px auto;
+    margin-top: 20px;
+}
+
+.section-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+/* Section about why we stand out */
+
+#events {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#events > div {
+    margin: 30px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 485px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 5px solid #5bb450;
+    border-radius: 20px;
+    position: relative;
+}
+
+hr {
+    border-top: 2px solid #5bb450;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.circle-cover {
+    padding: 0;
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -30px;
+    left: 13px;
+}
+
+#bgd2 {
+    background: url('/assets/images/events1.jpg') no-repeat center center;
+}
+
+#bgd3 {
+    background: url('/assets/images/catering_services1.jpg') no-repeat center center;
+}
+
+#bg3 {
+    background: url('../images/kidcrocsmall.webp') no-repeat center center;
+}

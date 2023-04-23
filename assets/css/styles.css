@@ -131,8 +131,8 @@ h1, h2 {
 #events > div {
     margin: 30px;
     background-color: #fafafa;
-    width: 300px;
-    height: 485px;
+    width: 310px;
+    height: 480px;
     padding: 10px 10px;
     text-align: center;
     border: 5px solid #5bb450;
@@ -149,21 +149,29 @@ hr {
 .circle-cover {
     padding: 0;
     width: 260px;
-    height: 260px;
-    border-radius: 20px;
+    height: 200px;
+    border-radius: 15px;
     position: absolute;
-    bottom: -30px;
-    left: 13px;
+    bottom: 10px;
+    left: 20px;
 }
 
 #bgd2 {
-    background: url('/assets/images/events1.jpg') no-repeat center center;
+    background: url('/assets/images/Wedding_photo.jpg') no-repeat center center;
 }
 
 #bgd3 {
-    background: url('/assets/images/catering_services1.jpg') no-repeat center center;
+    background: url('/assets/images/catering_services.jpg') no-repeat center center;
 }
 
-#bg3 {
-    background: url('../images/kidcrocsmall.webp') no-repeat center center;
+#bgd4 {
+    background: url('/assets/images/candle_cake2.jpg') no-repeat center center;
+}
+
+#bgd5 {
+    background: url('/assets/images/dancing_bride.jpg') no-repeat center center;
+}
+
+#bgd6 {
+    background: url('/assets/images/living-room-decor1.jpg') no-repeat center center;
 }

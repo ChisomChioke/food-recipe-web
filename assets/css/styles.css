@@ -100,16 +100,16 @@ h1, h2 {
     height: 80px;
     width: 100%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
 #reasons {
-    height: 400px;
+    height: 450px;
 }
 
 #left-about {
-    padding-top: 10px;
+    padding-top: 30px;
     width: 35%;
     float: left;
 }
@@ -122,7 +122,7 @@ h1, h2 {
 }
 
 #right-about {
-    padding-top: 10px;
+    padding-top: 30px;
     width: 35%;
     float: right;
 }
@@ -159,7 +159,7 @@ h1, h2 {
 .center-about {
     width: 35%;
     margin: 0 auto;
-    padding: 50px 30px;
+    padding: 70px 30px;
 }
 
 #circle-container {
@@ -171,11 +171,11 @@ h1, h2 {
 
 
 .hr2 {
-    border: 5px solid #5bb450;
+    border: 3px solid #5bb450;
     border-radius: 10px;
-    width: 95%;
+    width: 90%;
     margin: 30px auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .section-heading1 {
@@ -194,9 +194,9 @@ h1, h2 {
 }
 
 .hr1 {
-    border: 5px solid #5bb450;
+    border: 3px solid #5bb450;
     border-radius: 10px;
-    width: 95%;
+    width: 90%;
     margin: 30px auto;
     margin-top: 30px;
 }
@@ -213,15 +213,15 @@ h1, h2 {
     clear: both;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
 }
 
 #events > div {
     margin: 20px;
     background-color: #fafafa;
-    width: 310px;
-    height: 480px;
+    width: 340px;
+    height: 500px;
     padding: 10px 10px;
     text-align: center;
     border: 5px solid #5bb450;
@@ -237,16 +237,16 @@ hr {
 
 .circle-cover {
     padding: 0;
-    width: 260px;
+    width: 245px;
     height: 200px;
     border-radius: 15px;
     position: absolute;
-    bottom: 10px;
-    left: 20px;
+    bottom: 6px;
+    left: 5px;
 }
 
 #bgd2 {
-    background: url('/assets/images/Wedding_photo.jpg') no-repeat center center;
+    background: url('/assets/images/dancing_bride.jpg') no-repeat center center;
 }
 
 #bgd3 {
@@ -258,7 +258,7 @@ hr {
 }
 
 #bgd5 {
-    background: url('/assets/images/dancing_bride.jpg') no-repeat center center;
+    background: url('/assets/images/Wedding_photo.jpg') no-repeat center center;
 }
 
 #bgd6 {

@@ -114,16 +114,48 @@ h1, h2 {
     float: left;
 }
 
+.left-about-heading {
+    width: 90%;
+    float: right;
+    /* line-height: 20px; */
+    clear: both;
+    margin-bottom: 50px;
+}
+
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
+.right-about-heading {
+    width: 90%;
+    float: left;
+    /* line-height: 20px; */
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
 #center-about {
     width: 33%;
     margin: 0 auto;
 }
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+}
+
+
+
 
 .hr2 {
     border: 5px solid #5bb450;
@@ -218,4 +250,8 @@ hr {
 
 #bgd6 {
     background: url('/assets/images/living-room-decor1.jpg') no-repeat center center;
+}
+
+#bgd7 {
+    background: url('/assets/images/candle_cake2.jpg') no-repeat center center;
 }

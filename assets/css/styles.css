@@ -15,6 +15,13 @@ body{
 }
 
 /* Headings and Logo */
+
+header {
+    background: #c9fec9;
+    height: 100px;
+    width: 100%;
+}
+
 h1, h2 {
     font-family: 'Kalam', sans-serif;
     letter-spacing: 4px;
@@ -269,4 +276,43 @@ hr {
     background: url('/assets/images/event-planning1.jpg') no-repeat center center;
     height: 100%;
     border-radius: 5%;
+}
+
+/* Footer Styling */
+
+footer {
+    height: 100px;
+    width: 100%;
+}
+
+footer > .social-media-links {
+    background: #c9fec9;
+    margin-bottom: 50px;
+}
+
+#address {
+    font-family: 'Kalam', sans-serif;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-media-links {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-links li {
+    list-style-type: none;
+    padding: 50px;
+}
+
+.social-media-links i {
+    font-size: 200%;
+    color: #3a3a3a;
 }

@@ -105,43 +105,55 @@ h1, h2 {
 }
 
 #reasons {
-    height: 600px;
+    height: 400px;
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 10px;
+    width: 35%;
     float: left;
 }
 
 .left-about-heading {
     width: 90%;
     float: right;
-    /* line-height: 20px; */
     clear: both;
     margin-bottom: 50px;
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 10px;
+    width: 35%;
     float: right;
 }
 
 .right-about-heading {
     width: 90%;
     float: left;
-    /* line-height: 20px; */
     clear: both;
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
-    text-align: right;
+#left-about > div {
+    margin: 10px;
+    background-color: #fafafa;
+    text-align: center;
+    border-radius: 20px;
+    width: 480px;
+    height: 150px;
+    border: 3px solid #5bb450;
+    padding: 10px 10px;
 }
 
-.right-about-heading p {
-    text-align: right;
+#right-about > div {
+    margin: 10px;
+    background-color: #fafafa;
+    text-align: center;
+    border-radius: 20px;
+    width: 480px;
+    height: 150px;
+    border: 3px solid #5bb450;
+    padding: 10px 10px;
 }
 
 #center-about {
@@ -150,8 +162,15 @@ h1, h2 {
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 260px;
+    /* padding: 30px; */
+    /*border-style: solid;
+    border-color: #5bb450;
+    border-width: 1px; */
+    border: 2px solid #5bb450;
+    /* border-radius: 50%; */
+    margin: 0 auto;
 }
 
 
@@ -253,5 +272,7 @@ hr {
 }
 
 #bgd7 {
-    background: url('/assets/images/candle_cake2.jpg') no-repeat center center;
+    background: url('/assets/images/event-planning1.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }

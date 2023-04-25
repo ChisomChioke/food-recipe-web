@@ -280,6 +280,7 @@ hr {
 
 /* Footer Styling */
 
+/*
 footer {
     height: 100px;
     width: 100%;
@@ -315,4 +316,29 @@ footer > .social-media-links {
 .social-media-links i {
     font-size: 200%;
     color: #3a3a3a;
+}
+*/
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #c9fec9;
+    text-decoration: none;
+}
+
+#footer-items div {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+#photos > img {
+    width: 100%;
 }

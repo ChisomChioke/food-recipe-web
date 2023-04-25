@@ -90,9 +90,9 @@ h1, h2 {
     text-align: center;
 
     width: 600px;
-    height: fit-content;
+    height: 250px;
 
-    padding: 20px;
+    padding: 10px;
 
     background-color: rgba(11, 156, 49, 0.4);
     border-radius: 20px;
@@ -335,10 +335,12 @@ footer {
 
 #photos {
     clear: both;
-    line-height: 0;
     column-count: 4;
-    column-gap: 0;
+    column-gap: 2.5px;
 }
 #photos > img {
     width: 100%;
+    border-radius: 5px;
 }
+
+/* Media Queries */

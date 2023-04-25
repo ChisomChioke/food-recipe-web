@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Merienda:wght@300&family=Open+Sans:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -8,7 +8,7 @@
 }
 
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
@@ -18,11 +18,12 @@ body{
 
 header {
     background: #c9fec9;
-    height: 100px;
+    height: 75px;
     width: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Kalam', sans-serif;
     letter-spacing: 4px;
     color: green;
@@ -41,7 +42,8 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -72,7 +74,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -141,7 +144,7 @@ h1, h2 {
     margin-bottom: 50px;
 }
 
-#left-about > div {
+#left-about>div {
     margin: 10px;
     background-color: #fafafa;
     text-align: center;
@@ -152,7 +155,7 @@ h1, h2 {
     padding: 10px 10px;
 }
 
-#right-about > div {
+#right-about>div {
     margin: 10px;
     background-color: #fafafa;
     text-align: center;
@@ -172,7 +175,7 @@ h1, h2 {
 #circle-container {
     width: 450px;
     height: 260px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
@@ -224,7 +227,7 @@ h1, h2 {
     justify-content: space-evenly;
 }
 
-#events > div {
+#events>div {
     margin: 20px;
     background-color: #fafafa;
     width: 340px;
@@ -323,12 +326,64 @@ footer {
     height: 150px;
     width: 100%;
     background-color: #c9fec9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    justify-self: flex-start;
+    margin-left: 25px;
+    margin-top: -60px;
+}
+
+.footer-middle {
+    justify-self: center;
+}
+
+#contact li {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Kalam', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer-right {
+    justify-self: flex-end;
+    margin-right: 25px;
+}
+
+#footer-rt i {
+    font-size: 200%;
+}
+
+#nav_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+#nav_link li {
+    margin-left: 25px;
+}
+
+#nav_link a {
     text-decoration: none;
 }
 
-#footer-items div {
+#footer-rt {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+#footer-rt a {
+    margin: 25px;
 }
 
 /* Gallery */
@@ -338,7 +393,8 @@ footer {
     column-count: 4;
     column-gap: 2.5px;
 }
-#photos > img {
+
+#photos>img {
     width: 100%;
     border-radius: 5px;
 }

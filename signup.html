@@ -26,94 +26,105 @@
                 <li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="index.htm">Home</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
 
     <section>
         <section class="form-section">
-            <form class="sign-up-form" action="https://formdump.codeinstitute.net" method="POST">
-                <h2>Submit your details and questions! <i class="fa-solid fa-envelope-open-text"></i></h2>
-                <label for="fname">First Name</label>
-                <input id="fname" class="text-input" name="first_name" type="text" required>
-                <br>
-                <label for="lname">Last Name</label>
-                <input id="lname" class="text-input" name="last_name" type="text" required>
-                <br>
-                <label for="email">Email Address</label>
-                <input type="email" class="text-input" id="email" name="email_address" required>
-                
-                <h3>What is your child's age?</h3>
-                <input type="radio" id="four-to-nine" name="child_age" value="four-to-nine" required>
-                <label for="four-to-nine">4-9 years old</label>
-                <br>
-                <input type="radio" id="ten-to-fourteen" name="child_age" value="ten-to-fourteen" required>
-                <label for="ten-to-fourteen">10-14  years old</label>
-    
-                <h3>What classes or events are you interested in?</h3>
-                <p>(select all that apply)</p>
-                
-                <input type="checkbox" id="painting-checkbox" name="painting">
-                <label for="painting-checkbox">Painting</label>
-                <br>
-                <input type="checkbox" id="crafts-checkbox" name="crafts">
-                <label for="crafts-checkbox">Crafts</label>
-                <br>
-                <input type="checkbox" id="birthday-checkbox" name="birthday">
-                <label for="birthday-checkbox">Birthday Party</label>
-                <br>
-                <input type="checkbox" id="camp-checkbox" name="camp">
-                <label for="camp-checkbox">Summer Camps</label>
-                <h3>Have more questions?</h3>
-                <label for="message" id="message-box-label"><strong>Leave us a message:</strong></label>
-                <textarea id="message" rows="10" cols="70" name="message"></textarea>
-                
-                <button type="submit" class="form-submit-button" value="submit"> 
-                    Send <i class="fa-solid fa-paper-plane"></i>
+            <form class="sign-up-form" action="https://formdump.codeinstitute.net/" method="POST">
+                <fieldset>
+                    <legend>Contact details<legend>
+                            <label for="fname">First Name</label>
+                            <input id="fname" class="text-input" name="first_name" type="text" required>
+                            <br>
+                            <label for="lname">Last Name</label>
+                            <input id="lname" class="text-input" name="last_name" type="text" required>
+                            <br>
+                            <label for="email">Email Address</label>
+                            <input type="email" class="text-input" id="email" name="email_address" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Let's plan your event!</legend>
+                    <label for="wedding">What event are you celebrating?</label>
+                    <select id="events" name="events">
+                        <option value="wedding">Wedding Ceremony</option>
+                        <option value="birthday">Birthday Party</option>
+                        <option value="baby">Baby Shower</option>
+                        <option value="engagement">Engagement Party</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="naming">Naming Ceremony</option>
+                        <option value="reunion">Reunion Party</option>
+                        <option value="house">House Warming</option>
+                        <option value="retirement">Retirement Party</option>
+                        <option value="others">Others</option>
+                    </select>
+                    <label for="what_services">What services do you require?</label>
+                    <p>(select all that apply)</p>
+                    <input type="checkbox" id="event-planning-checkbox" name="event-planning">
+                    <label for="planning-checkbox">Event Planning</label>
+                    <br>
+                    <input type="checkbox" id="catering-checkbox" name="catering">
+                    <label for="catering-checkbox">Catering Services</label>
+                    <br>
+                    <input type="checkbox" id="bakery-checkbox" name="bakery">
+                    <label for="bakery-checkbox">Bakery</label>
+                    <br>
+                    <input type="checkbox" id="fashion-checkbox" name="fashion">
+                    <label for="fashion-checkbox">Fashion Designs</label>
+                    <br>
+                    <input type="checkbox" id="decoration-checkbox" name="decoration">
+                    <label for="decoration-checkbox">Decoration</label>
+                    <label for="message" id="message-box-label"><strong>Write us a message:</strong></label>
+                    <textarea id="message" rows="10" cols="70" name="message"></textarea>
+                </fieldset>
+                <button type="submit" class="form-submit-button" value="submit">
+                    Send
                 </button>
             </form>
-    </section>
+        </section>
 
-    <!--Footer-->
+        <!--Footer-->
 
-    <footer id="footer-items">
+        <footer id="footer-items">
 
-        <div class="footer-left">
-            <ul id="nav_link">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html">Contact Us</a></li>
-            </ul>
-        </div>
+            <div class="footer-left">
+                <ul id="nav_link">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="signup.html">Contact Us</a></li>
+                </ul>
+            </div>
 
-        <div class="footer-middle">
-            <ul id="contact">
-                <li><i class="fa-solid fa-location-dot"></i> Waldeyerstraße 32, 48149, Münster</li>
-                <li><i class="fa-regular fa-envelope"></i> cs.chioke@gmail.com</li>
-                <li><i class="fa-solid fa-phone"></i> 01573 730 0141</li>
-            </ul>
-        </div>
+            <div class="footer-middle">
+                <ul id="contact">
+                    <li><i class="fa-solid fa-location-dot"></i> Waldeyerstraße 32, 48149, Münster</li>
+                    <li><i class="fa-regular fa-envelope"></i> cs.chioke@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> 01573 730 0141</li>
+                </ul>
+            </div>
 
-        <div class="footer-right">
-            <ul id="footer-rt">
-                <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                        aria-label="link to our facebook page"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="link to our instagram page"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com" target="_blank" rel="noopener"
-                        aria-label="link to our linked in page"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
-                        aria-label="link to our twitter page"><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
-        </div>
+            <div class="footer-right">
+                <ul id="footer-rt">
+                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                            aria-label="link to our facebook page"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                            aria-label="link to our instagram page"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank" rel="noopener"
+                            aria-label="link to our linked in page"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                            aria-label="link to our twitter page"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
 
-    </footer>
+        </footer>
 
-    <!-- Font Awesome Script -->
+        <!-- Font Awesome Script -->
 
-    <script src="https://kit.fontawesome.com/3e15c9c764.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/3e15c9c764.js" crossorigin="anonymous"></script>
 
 </body>
 

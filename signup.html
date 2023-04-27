@@ -16,6 +16,8 @@
 
 <body>
 
+    <!--Header-->
+
     <header>
         <a href="index.html">
             <h1 id="logo">Green Memories</h1>
@@ -31,24 +33,27 @@
         </nav>
     </header>
 
+    <!-- Sign up page-->
+
     <section>
         <section class="form-section">
             <form class="sign-up-form" action="https://formdump.codeinstitute.net/" method="POST">
                 <fieldset>
-                    <legend>Contact details<legend>
-                            <label for="fname">First Name</label>
-                            <input id="fname" class="text-input" name="first_name" type="text" required>
-                            <br>
-                            <label for="lname">Last Name</label>
-                            <input id="lname" class="text-input" name="last_name" type="text" required>
-                            <br>
-                            <label for="email">Email Address</label>
-                            <input type="email" class="text-input" id="email" name="email_address" required>
+                    <legend>Contact details</legend>
+                    <label for="fname">First Name</label>
+                    <input id="fname" class="text-input" name="first_name" type="text" required>
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <input id="lname" class="text-input" name="last_name" type="text" required>
+                    <br>
+                    <label for="email">Email Address</label>
+                    <input type="email" class="text-input" id="email" name="email_address" required>
                 </fieldset>
 
                 <fieldset>
                     <legend>Let's plan your event!</legend>
                     <label for="wedding">What event are you celebrating?</label>
+                    <br>
                     <select id="events" name="events">
                         <option value="wedding">Wedding Ceremony</option>
                         <option value="birthday">Birthday Party</option>
@@ -61,6 +66,7 @@
                         <option value="retirement">Retirement Party</option>
                         <option value="others">Others</option>
                     </select>
+                    <br>
                     <label for="what_services">What services do you require?</label>
                     <p>(select all that apply)</p>
                     <input type="checkbox" id="event-planning-checkbox" name="event-planning">
@@ -77,11 +83,12 @@
                     <br>
                     <input type="checkbox" id="decoration-checkbox" name="decoration">
                     <label for="decoration-checkbox">Decoration</label>
+                    <br><br>
                     <label for="message" id="message-box-label"><strong>Write us a message:</strong></label>
                     <textarea id="message" rows="10" cols="70" name="message"></textarea>
                 </fieldset>
                 <button type="submit" class="form-submit-button" value="submit">
-                    Send
+                    Send!
                 </button>
             </form>
         </section>

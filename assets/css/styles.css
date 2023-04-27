@@ -283,47 +283,8 @@ hr {
 
 /* Footer Styling */
 
-/*
 footer {
     height: 100px;
-    width: 100%;
-}
-
-footer > .social-media-links {
-    background: #c9fec9;
-    margin-bottom: 50px;
-}
-
-#address {
-    font-family: 'Kalam', sans-serif;
-    margin-top: 20px;
-    font-size: x-large;
-    font-weight: bold;
-    text-align: center;
-}
-
-.social-media-links {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-media-links li {
-    list-style-type: none;
-    padding: 50px;
-}
-
-.social-media-links i {
-    font-size: 200%;
-    color: #3a3a3a;
-}
-*/
-
-footer {
-    height: 150px;
     width: 100%;
     background-color: #c9fec9;
     display: flex;
@@ -334,7 +295,7 @@ footer {
 .footer-left {
     justify-self: flex-start;
     margin-left: 25px;
-    margin-top: -60px;
+    margin-top: -30px;
 }
 
 .footer-middle {
@@ -345,7 +306,7 @@ footer {
     list-style-type: none;
     text-align: center;
     font-family: 'Kalam', sans-serif;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -400,16 +361,80 @@ footer {
     border-radius: 5px;
 }
 
-/* Sign up page */
-/*
+/* Sign up page styling */
+
 .form-section {
     clear: left;
     background: url('/assets/images/Business-people-planning-around-table.jpg');
     background-size: cover;
     background-position: center;
     height: 900px;
-    opacity: 0.70;
-}*/
+}
 
+.sign-up-form {
+    margin: 30px 10% 10px 10%;
+    color: #fff;
+    background-color: rgba(8, 137, 42, 0.6);
+    max-width: 800px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+legend {
+    color: #fafafa;
+    margin-left: 0px;
+    font-family: 'Kalam', 'Open sans';
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.text-input {
+    /* margin: 10px 8% 20px 2%; */
+    background: transparent;
+    color: #fafafa;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0 20px;
+    border: 2px solid #fafafa;
+    border-radius: 4px;
+}
+
+.text-input:hover {
+    border-color: #f16cf1;
+}
+
+#message:hover {
+    border-color: #f16cf1;
+}
+
+#message {
+    margin: 10px 0 20px 0;
+    width: 100%;
+    border: 2px solid #fafafa;
+    border-radius: 4px;
+    background: transparent;
+    color: #fafafa;
+}
+
+.form-submit-button {
+    background: rgba(8, 137, 42, 0.6);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-family: 'Shantell Sans', sans-serif;
+    font-size: x-large;
+}
+
+.form-submit-button:hover {
+    background: white;
+    border: 2px solid #f16cf1;
+    color: #056608;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-family: 'Shantell Sans', sans-serif;
+    font-size: x-large;
+}
 
 /* Media Queries */

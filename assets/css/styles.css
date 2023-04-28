@@ -402,7 +402,6 @@ legend {
 }
 
 .text-input {
-    /* margin: 10px 8% 20px 2%; */
     background: transparent;
     color: #fafafa;
     height: 25px;
@@ -448,6 +447,59 @@ legend {
     font-family: 'Shantell Sans', sans-serif;
     font-size: x-large;
 }
+
+/* About Us page styling */
+
+.about-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 4px solid #056608;
+}
+#about-us-container{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+}
+
+/* .about-us {
+    margin: 2rem 0rem 4rem 0rem;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+.about-us > h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+}
+
+.business-links i {
+    font-size: 200%;
+    color: #3a3a3a;
+}
+
+.business-links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
 
 /* Media Queries */
 

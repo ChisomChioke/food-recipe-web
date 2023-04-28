@@ -17,23 +17,27 @@ body {
 /* Headings and Logo */
 
 header {
-    background: #c9fec9;
-    height: 75px;
+    background-color: #c9fec9;
+    height: 100px;
     width: 100%;
 }
 
 h1,
 h2 {
     font-family: 'Kalam', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: green;
+}
+
+h2 {
+    font-size: 115%;
 }
 
 #logo {
     float: left;
     font-size: 280%;
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 /* Navigation Links */
@@ -44,7 +48,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 100px;
 }
 
 #menu li {
@@ -80,20 +84,22 @@ h2 {
 }
 
 #hero-image {
-    height: 100vh;
+    height: 480px;
     width: 100%;
     background: url('/assets/images/Backyard Dinner Party-1.jpg') no-repeat center center;
     background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #cover-text {
-    font-size: 1.5rem;
+    font-size: 110%;
     font-family: 'Kalam', 'Open Sans';
     letter-spacing: 2px;
     text-align: center;
 
-    width: 600px;
-    height: 250px;
+    width: 500px;
+    height: 140px;
 
     padding: 10px;
 
@@ -106,21 +112,30 @@ h2 {
     position: absolute;
 }
 
+/* Section about why we stand out */
+
+.section-heading1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
 #why_we_stand_out {
-    height: 80px;
+    height: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    /* padding-bottom: 0px; */
+
 }
 
 #reasons {
-    height: 450px;
+    height: 400px;
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 35%;
+    padding-top: 40px;
+    width: 33%;
     float: left;
 }
 
@@ -132,8 +147,8 @@ h2 {
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 35%;
+    padding-top: 40px;
+    width: 33%;
     float: right;
 }
 
@@ -145,31 +160,32 @@ h2 {
 }
 
 #left-about>div {
-    margin: 10px;
+    margin-left: 70px;
     background-color: #fafafa;
     text-align: center;
-    border-radius: 20px;
-    width: 480px;
+    border-radius: 15px;
+    width: 90%;
     height: 150px;
     border: 3px solid #5bb450;
     padding: 10px 10px;
 }
 
 #right-about>div {
-    margin: 10px;
+    margin-right: 70px;
     background-color: #fafafa;
     text-align: center;
-    border-radius: 20px;
-    width: 480px;
+    border-radius: 15px;
+    width: 90%;
     height: 150px;
     border: 3px solid #5bb450;
     padding: 10px 10px;
 }
 
 .center-about {
-    width: 35%;
+    width: 33%;
     margin: 0 auto;
-    padding: 70px 30px;
+    /* padding: 70px 30px; */
+    padding-top: 80px;
 }
 
 #circle-container {
@@ -184,31 +200,28 @@ h2 {
     border: 3px solid #5bb450;
     border-radius: 10px;
     width: 90%;
-    margin: 30px auto;
-    margin-top: 50px;
-}
-
-.section-heading1 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2.5rem;
-}
-
-
-#our_services {
-    height: 80px;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    /* margin-top: 10px; */
 }
 
 .hr1 {
     border: 3px solid #5bb450;
     border-radius: 10px;
     width: 90%;
-    margin: 30px auto;
-    margin-top: 30px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+}
+
+
+
+/* Section about our services */
+
+#our_services {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .section-heading {
@@ -217,42 +230,40 @@ h2 {
     font-size: 2.5rem;
 }
 
-/* Section about our services */
-
 #events {
     clear: both;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 #events>div {
-    margin: 20px;
+    margin: 10px;
     background-color: #fafafa;
-    width: 340px;
-    height: 500px;
-    padding: 10px 10px;
+    width: 280px;
+    height: 460px;
+    padding-top: 10px;
     text-align: center;
     border: 5px solid #5bb450;
-    border-radius: 20px;
+    border-radius: 15px;
     position: relative;
 }
 
-hr {
-    border-top: 2px solid #5bb450;
-    width: 100%;
-    margin: 5px 0;
+.hr3 {
+    border-top: 1px solid #056604;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 .circle-cover {
-    padding: 0;
-    width: 245px;
+    width: 250px;
     height: 200px;
     border-radius: 15px;
     position: absolute;
     bottom: 6px;
-    left: 5px;
+    left: 10px;
 }
 
 #bgd2 {
@@ -369,6 +380,7 @@ footer {
     background-size: cover;
     background-position: center;
     height: 900px;
+    width: 100%;
 }
 
 .sign-up-form {
@@ -438,3 +450,58 @@ legend {
 }
 
 /* Media Queries */
+
+/* Responsiveness for medium screen sizes from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+    #right-about {
+        padding-top: 30px;
+        width: 30%;
+        float: right;
+    }
+
+    #left-about {
+        padding-top: 30px;
+        width: 30%;
+        float: left;
+    }
+
+    #left-about>div {
+        background-color: #fafafa;
+        text-align: center;
+        border-radius: 15px;
+        width: 90%;
+        height: 170px;
+        border: 3px solid #5bb450;
+        padding: 10px 10px;
+    }
+
+    #right-about>div {
+        background-color: #fafafa;
+        text-align: center;
+        border-radius: 15px;
+        width: 90%;
+        height: 170px;
+        border: 3px solid #5bb450;
+        padding: 10px 10px;
+    }
+
+    #circle-container {
+        margin-left: -10px;
+        width: 450px;
+        height: 260px;
+    }
+
+    .center-about {
+        width: 33%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+
+    #events {
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

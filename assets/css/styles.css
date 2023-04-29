@@ -85,7 +85,7 @@ h2 {
 #hero-image {
     height: 480px;
     width: 100%;
-    background: url("/assets/images/Backyard Dinner Party-1.jpg") no-repeat center center;
+    background: url("../images/backyard_dinner_party-1.jpg") no-repeat center center;
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
@@ -257,27 +257,27 @@ h2 {
 }
 
 #bgd2 {
-    background: url("/assets/images/dancing_bride.jpg") no-repeat center center;
+    background: url("../images/dancing_bride.jpg") no-repeat center center;
 }
 
 #bgd3 {
-    background: url("/assets/images/catering_services.jpg") no-repeat center center;
+    background: url("../images/catering_services.jpg") no-repeat center center;
 }
 
 #bgd4 {
-    background: url("/assets/images/candle_cake2.jpg") no-repeat center center;
+    background: url("../images/candle_cake2.jpg") no-repeat center center;
 }
 
 #bgd5 {
-    background: url("/assets/images/ejims4.jpg") no-repeat center center;
+    background: url("../images/ejims4.jpg") no-repeat center center;
 }
 
 #bgd6 {
-    background: url("/assets/images/living-room-decor1.jpg") no-repeat center center;
+    background: url("../images/living-room-decor1.jpg") no-repeat center center;
 }
 
 #bgd7 {
-    background: url("/assets/images/event-planning1.jpg") no-repeat center center;
+    background: url("../images/event-planning1.jpg") no-repeat center center;
     height: 100%;
     border-radius: 5%;
 }
@@ -354,7 +354,7 @@ h2 {
 
 .form-section {
     clear: left;
-    background: url("/assets/images/Business-people-planning-around-table.jpg");
+    background: url("../images/business-people-planning-around-table.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -646,7 +646,7 @@ h3 {
 }
 
 #bgd7 {
-    background: url("/assets/images/event-planning1.jpg") no-repeat center center;
+    background: url("../images/event-planning1.jpg") no-repeat center center;
     border-radius: 5%;
 }
 

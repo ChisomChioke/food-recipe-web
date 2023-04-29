@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Merienda:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Merienda:wght@300&family=Open+Sans:wght@300&display=swap");
 
 * {
     margin: 0;
@@ -7,9 +7,8 @@
     box-sizing: border-box;
 }
 
-
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -24,7 +23,7 @@ header {
 
 h1,
 h2 {
-    font-family: 'Kalam', sans-serif;
+    font-family: "Kalam", sans-serif;
     letter-spacing: 2px;
     color: green;
 }
@@ -86,7 +85,7 @@ h2 {
 #hero-image {
     height: 480px;
     width: 100%;
-    background: url('/assets/images/Backyard Dinner Party-1.jpg') no-repeat center center;
+    background: url("/assets/images/Backyard Dinner Party-1.jpg") no-repeat center center;
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
@@ -94,7 +93,7 @@ h2 {
 
 #cover-text {
     font-size: 110%;
-    font-family: 'Kalam', 'Open Sans';
+    font-family: "Kalam", "Open Sans";
     letter-spacing: 2px;
     text-align: center;
 
@@ -125,8 +124,6 @@ h2 {
     width: 100%;
     text-align: center;
     padding-top: 40px;
-    /* padding-bottom: 0px; */
-
 }
 
 #reasons {
@@ -184,7 +181,6 @@ h2 {
 .center-about {
     width: 33%;
     margin: 0 auto;
-    /* padding: 70px 30px; */
     padding-top: 80px;
 }
 
@@ -194,14 +190,11 @@ h2 {
     margin: 0 auto;
 }
 
-
-
 .hr2 {
     border: 3px solid #5bb450;
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
-    /* margin-top: 10px; */
 }
 
 .hr1 {
@@ -209,10 +202,7 @@ h2 {
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
-    /* margin-top: 30px; */
 }
-
-
 
 /* Section about our services */
 
@@ -267,96 +257,84 @@ h2 {
 }
 
 #bgd2 {
-    background: url('/assets/images/dancing_bride.jpg') no-repeat center center;
+    background: url("/assets/images/dancing_bride.jpg") no-repeat center center;
 }
 
 #bgd3 {
-    background: url('/assets/images/catering_services.jpg') no-repeat center center;
+    background: url("/assets/images/catering_services.jpg") no-repeat center center;
 }
 
 #bgd4 {
-    background: url('/assets/images/candle_cake2.jpg') no-repeat center center;
+    background: url("/assets/images/candle_cake2.jpg") no-repeat center center;
 }
 
 #bgd5 {
-    background: url('/assets/images/ejims4.jpg') no-repeat center center;
+    background: url("/assets/images/ejims4.jpg") no-repeat center center;
 }
 
 #bgd6 {
-    background: url('/assets/images/living-room-decor1.jpg') no-repeat center center;
+    background: url("/assets/images/living-room-decor1.jpg") no-repeat center center;
 }
 
 #bgd7 {
-    background: url('/assets/images/event-planning1.jpg') no-repeat center center;
+    background: url("/assets/images/event-planning1.jpg") no-repeat center center;
     height: 100%;
     border-radius: 5%;
 }
 
 /* Footer Styling */
 
-footer {
-    height: 100px;
-    width: 100%;
-    background-color: #c9fec9;
+#footer-container {
+    clear: both;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.footer-left {
-    justify-self: flex-start;
-    margin-left: 25px;
-    margin-top: -30px;
-}
-
-.footer-middle {
-    justify-self: center;
-}
-
-#contact li {
-    list-style-type: none;
+#footer-container>div {
+    background-color: #c9fec9;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
     text-align: center;
-    font-family: 'Kalam', sans-serif;
-    font-size: large;
-    font-weight: bold;
-}
-
-.footer-right {
-    justify-self: flex-end;
-    margin-right: 25px;
-}
-
-#footer-rt i {
-    font-size: 200%;
-    color: #3a3a3a;
+    position: relative;
 }
 
 #nav_link {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
     list-style-type: none;
 }
 
 #nav_link li {
-    margin-left: 25px;
+    margin-left: 30px;
+    padding-top: 15px;
 }
 
 #nav_link a {
     text-decoration: none;
 }
 
-#footer-rt {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+.footer-middle li {
+    font-family: "Kalam", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    justify-self: center;
     list-style-type: none;
 }
 
-#footer-rt a {
-    margin: 25px;
+#footer-rt i {
+    color: #3a3a3a;
+    font-size: 200%;
+}
+
+#footer-rt {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 20px;
 }
 
 /* Gallery */
@@ -376,7 +354,7 @@ footer {
 
 .form-section {
     clear: left;
-    background: url('/assets/images/Business-people-planning-around-table.jpg');
+    background: url("/assets/images/Business-people-planning-around-table.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -396,7 +374,7 @@ footer {
 legend {
     color: #fafafa;
     margin-left: 0px;
-    font-family: 'Kalam', 'Open sans';
+    font-family: "Kalam", "Open sans";
     font-size: x-large;
     font-weight: bold;
 }
@@ -434,7 +412,7 @@ legend {
     color: white;
     padding: 10px 10px;
     border-radius: 4px;
-    font-family: 'Shantell Sans', sans-serif;
+    font-family: "Shantell Sans", sans-serif;
     font-size: x-large;
 }
 
@@ -444,19 +422,20 @@ legend {
     color: #056608;
     padding: 10px 10px;
     border-radius: 4px;
-    font-family: 'Shantell Sans', sans-serif;
+    font-family: "Shantell Sans", sans-serif;
     font-size: x-large;
 }
 
 /* About Us page styling */
 
-.about-img{
+.about-img {
     width: 350px;
     height: 350px;
     border-radius: 50%;
     border: 4px solid #056608;
 }
-#about-us-container{
+
+#about-us-container {
     clear: both;
     display: flex;
     flex-direction: row;
@@ -466,23 +445,14 @@ legend {
     height: 600px;
 }
 
-/* .about-us {
-    margin: 2rem 0rem 4rem 0rem;
-    gap: 2rem;
-    padding: 2rem;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-} */
-
-.about-us > h1{
+.about-us>h1 {
     text-align: center;
     margin-top: 30px;
     font-size: xx-large;
 }
 
 h3 {
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: "Open Sans", "sans-serif";
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
@@ -500,11 +470,12 @@ h3 {
     justify-content: center;
     gap: 2rem;
     padding: 2rem;
+}
 
 /* Media Queries */
 
 /* Responsiveness for medium screen sizes from 1300px wide and down */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
     #right-about {
         padding-top: 30px;
         width: 30%;
@@ -555,5 +526,74 @@ h3 {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+}
+
+/* Responsiveness for medium screen sizes from 1100px wide and down */
+@media screen and (max-width: 1100px) {
+    #nav_link li {
+        margin-left: 10px;
+        padding-top: 7px;
+    }
+
+    .footer-middle li {
+        font-size: small;
+        font-weight: bold;
+        justify-self: center;
+    }
+
+    #footer-rt i {
+        font-size: 100%;
+    }
+
+    #footer-rt {
+        padding-top: 10px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .about-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 4px solid #056608;
+    }
+
+    .about-us {
+        height: 400px;
+    }
+
+    #footer-rt i {
+        font-size: 100%;
+    }
+}
+
+/* Responsiveness for medium screen sizes from 850px wide and down */
+@media screen and (max-width: 850px) {
+    #nav_link li {
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+
+    .footer-middle li {
+        font-size: smaller;
+        font-weight: bold;
+    }
+
+    #footer-rt i {
+        font-size: 100%;
+    }
+
+    #footer-rt {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        /* justify-content: space-evenly; */
+        margin: 15px;
+        padding-top: 10px;
     }
 }

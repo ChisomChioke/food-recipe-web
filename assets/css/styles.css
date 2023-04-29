@@ -573,6 +573,7 @@ h3 {
 }
 
 /* Responsiveness for medium screen sizes from 850px wide and down */
+
 @media screen and (max-width: 850px) {
     #nav_link li {
         margin-left: 5px;
@@ -592,8 +593,81 @@ h3 {
         display: flex;
         flex-direction: row;
         list-style-type: none;
-        /* justify-content: space-evenly; */
         margin: 15px;
         padding-top: 10px;
     }
+}
+
+/* Responsiveness for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) { 
+
+#menu {
+    clear: left;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+/* header {
+    background-color: #c9fec9;
+    height: 100px;
+    width: 100%;
+} */
+
+.section-heading1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+#why_we_stand_out {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#reasons {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#left-about {
+    padding-top: 40px;
+    width: 90%;
+    align-items: center;
+}
+#right-about {
+    padding-top: 0;
+    width: 90%;
+    align-items: center;
+}
+
+#bgd7 {
+    background: url("/assets/images/event-planning1.jpg") no-repeat center center;
+    border-radius: 5%;
+}
+
+.left-about-heading, .right-about-heading {
+    width: inherit;
+}
+
+#left-about>div, #right-about>div{
+    width: inherit;
+    height: inherit;
+}
+
+.center-about {
+    width: 90%;
+    align-items: center;   
+}
+
+#circle-container {
+    width: 500px;
+    height: 1800px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
 }

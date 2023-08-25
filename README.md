@@ -3,19 +3,22 @@
 ![Home page](assets/images/green-memories.png)
 
 Introduction
-
+---
 Green memories is a website for event planning and management located in Münster, Germany. The site aims to offer services planning and management of different kinds of events like wedding ceremonies, birthday parties, anniversaries. Other services offered include: catering, bakery, fashion designs and decorations.
 The inspiration behind this project is born out of the fact that there are people who would like to celebrate special events in their life but have not got the time to plan and execute all the logistics it would involve. Also, even though every business aims to make profit, Green Memories is also aimed to help people create beautiful memories in their life at a minimal cost.
 
 Features
+---
 
 ![Landing Page](assets/images/landing_page.png)
 
 The website comprises four pages: Home, About Us, Gallery and Contact Us Pages. The landing page hosts the 'Hero' images and five other images that help pass the message of what the site serves. Also contained on the Home page are the Logo, the navigation bars and contact details of the owners. The About Us pages features the images and contact links of the business partners who run the activities on the site. The Gallery contains a pictorial exhibitions of what events and services the site owners had covered in the past. And the Contact Page is where interested clients can reach out to the owners.
 
 Existing Features:
+---
 
 Navigation Bar and the Footer
+---
 
 ![Navigation bar](assets/images/naviagtion_bar.png)
 
@@ -24,35 +27,39 @@ Navigation Bar and the Footer
 The Logo, Navigation Bar and Footer are featured on all four pages, the full responsive navigation bar and footer includes links to the Logo, Home page, About Us, Gallery and Contact pages and is identical in each page to allow for easy navigation. The navigation bar is also placed at the Footer so that wherever a user is on the site, they can easily navigate their way without having to revert back to the previous page via the ‘back’ button.
 
 The landing page image
-
+---
 The landing includes an eye catching image with text overlay which lets the user immediately know what 'Green Memories' do and appeals to their psychology to want to experience the services of the owner of the site.
 
 ![Landing page](assets/images/landing_page.png)
 
 
-Why We Stand Out Section! 
+Why We Stand Out Section!
+---
 This section further seeks to gain the attention of the user by convincing them that they would have a wonderful experience in the event that they decide to contract 'Green Memories'. It gives them reasons they stand out among others. These reasons are meant to further convince the users.
 
 ![Why we stand out](assets/images/why_we_stand_out.png)
-
+---
 Our Services Section
 In this section, the services of the owner are outlined. This gives the user an overview of what the owners of the site are specialised in. And whenever in doubt about something, they are also welcomed to seek clarifications with the owners by contacting them.
 
 ![Our services](assets/images/our_services.png)
 
 The Footer
+---
 The footer section includes navigation bar, contact details and links to the relevant social media sites for Green Memories. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](assets/images/footer.png)
 
 Gallery
+---
 The gallery provides the user with supporting images to see what the services of Green Memories look like.
 This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. It also serves for the viewing pleasure of the user and to anticipate having such memories created for them.
 
 ![Gallery page](assets/images/gallery_page.png)
 
 The Contact Us Page
+---
 This page will allow the user contact Green Memories and input some information about what they might be interested in. The user wil, in addition, be asked to submit their full name and email address and leave some further description if they want to.
 
 ![About us](assets/images/about_us.png)
@@ -60,6 +67,7 @@ This page will allow the user contact Green Memories and input some information 
 ![Contact page](assets/images/contact_us_page.png)
 
 Testing
+---
 The website was properly tested and shows to work well. It scores well in the areas of performance, accessibility, best practices and SEO.
 
 Validator Testing

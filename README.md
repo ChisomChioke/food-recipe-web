@@ -1,7 +1,6 @@
 # Green Memories
 
-![Home page]
-(assets/images/green-memories.png)
+![Home page](assets/images/green-memories.png)
 
 Introduction
 
@@ -10,8 +9,7 @@ The inspiration behind this project is born out of the fact that there are peopl
 
 Features
 
-![Landing Page]
-(assets/images/landing_page.png)
+![Landing Page](assets/images/landing_page.png)
 The website comprises four pages: Home, About Us, Gallery and Contact Us Pages. The landing page hosts the 'Hero' images and five other images that help pass the message of what the site serves. Also contained on the Home page are the Logo, the navigation bars and contact details of the owners. The About Us pages features the images and contact links of the business partners who run the activities on the site. The Gallery contains a pictorial exhibitions of what events and services the site owners had covered in the past. And the Contact Page is where interested clients can reach out to the owners.
 
 Existing Features:

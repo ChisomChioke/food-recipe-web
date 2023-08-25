@@ -16,6 +16,7 @@ The website comprises four pages: Home, About Us, Gallery and Contact Us Pages. 
 Existing Features:
 
 Navigation Bar and the Footer
+
 ![Navigation bar](assets/images/naviagtion_bar.png)
 
 ![Footer](assets/images/footer.png)

@@ -475,7 +475,7 @@ h3 {
 /* Media Queries */
 
 /* Responsiveness for medium screen sizes from 1300px wide and down */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
     #right-about {
         padding-top: 30px;
         width: 30%;

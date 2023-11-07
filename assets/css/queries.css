@@ -1,0 +1,199 @@
+/* Media Queries */
+
+/* Responsiveness for medium screen sizes from 1300px wide and down */
+@media screen and (max-width: 1350px) {
+    #right-about {
+        padding-top: 30px;
+        width: 30%;
+        float: right;
+    }
+
+    #left-about {
+        padding-top: 30px;
+        width: 30%;
+        float: left;
+    }
+
+    #left-about>div {
+        background-color: #fafafa;
+        text-align: center;
+        border-radius: 15px;
+        width: 90%;
+        height: 170px;
+        border: 3px solid #5bb450;
+        padding: 10px 10px;
+    }
+
+    #right-about>div {
+        background-color: #fafafa;
+        text-align: center;
+        border-radius: 15px;
+        width: 90%;
+        height: 170px;
+        border: 3px solid #5bb450;
+        padding: 10px 10px;
+    }
+
+    #circle-container {
+        margin-left: -10px;
+        width: 450px;
+        height: 260px;
+    }
+
+    .center-about {
+        width: 33%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+
+    #events {
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+/* Responsiveness for medium screen sizes from 1100px wide and down */
+@media screen and (max-width: 1100px) {
+    #nav_link li {
+        margin-left: 10px;
+        padding-top: 7px;
+    }
+
+    .footer-middle li {
+        font-size: small;
+        font-weight: bold;
+        justify-self: center;
+    }
+
+    #footer-rt i {
+        font-size: 100%;
+    }
+
+    #footer-rt {
+        padding-top: 10px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .about-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 4px solid #056608;
+    }
+
+    .about-us {
+        height: 400px;
+    }
+
+    #footer-rt i {
+        font-size: 100%;
+    }
+}
+
+/* Responsiveness for medium screen sizes from 850px wide and down */
+
+@media screen and (max-width: 850px) {
+    #nav_link li {
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+
+    .footer-middle li {
+        font-size: smaller;
+        font-weight: bold;
+    }
+
+    #footer-rt i {
+        font-size: 100%;
+    }
+
+    #footer-rt {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 15px;
+        padding-top: 10px;
+    }
+}
+
+/* Responsiveness for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) { 
+
+#menu {
+    clear: left;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+/* header {
+    background-color: #c9fec9;
+    height: 100px;
+    width: 100%;
+} */
+
+.section-heading1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+#why_we_stand_out {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#reasons {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#left-about {
+    padding-top: 40px;
+    width: 90%;
+    align-items: center;
+}
+#right-about {
+    padding-top: 0;
+    width: 90%;
+    align-items: center;
+}
+
+#bgd7 {
+    background: url("../images/event-planning1.webp") no-repeat center center;
+    border-radius: 5%;
+}
+
+.left-about-heading, .right-about-heading {
+    width: inherit;
+}
+
+#left-about>div, #right-about>div{
+    width: inherit;
+    height: inherit;
+}
+
+.center-about {
+    width: 90%;
+    align-items: center;   
+}
+
+#circle-container {
+    width: 500px;
+    height: 1800px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+}

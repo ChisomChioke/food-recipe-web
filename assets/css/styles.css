@@ -85,7 +85,7 @@ h2 {
 #hero-image {
     height: 480px;
     width: 100%;
-    background: url("../images/backyard_dinner_party-1.jpg") no-repeat center center;
+    background: url("../images/backyard_dinner_party-1.webp") no-repeat center center;
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
@@ -257,27 +257,27 @@ h2 {
 }
 
 #bgd2 {
-    background: url("../images/dancing_bride.jpg") no-repeat center center;
+    background: url("../images/dancing_bride.webp") no-repeat center center;
 }
 
 #bgd3 {
-    background: url("../images/catering_services.jpg") no-repeat center center;
+    background: url("../images/catering_services.webp") no-repeat center center;
 }
 
 #bgd4 {
-    background: url("../images/candle_cake2.jpg") no-repeat center center;
+    background: url("../images/candle_cake2.webp") no-repeat center center;
 }
 
 #bgd5 {
-    background: url("../images/ejims4.jpg") no-repeat center center;
+    background: url("../images/ejims4.webp") no-repeat center center;
 }
 
 #bgd6 {
-    background: url("../images/living-room-decor1.jpg") no-repeat center center;
+    background: url("../images/living-room-decor1.webp") no-repeat center center;
 }
 
 #bgd7 {
-    background: url("../images/event-planning1.jpg") no-repeat center center;
+    background: url("../images/event-planning1.webp") no-repeat center center;
     height: 100%;
     border-radius: 5%;
 }
@@ -354,7 +354,7 @@ h2 {
 
 .form-section {
     clear: left;
-    background: url("../images/business-people-planning-around-table.jpg");
+    background: url("../images/business-people-planning-around-table.webp");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -475,7 +475,7 @@ h3 {
 /* Media Queries */
 
 /* Responsiveness for medium screen sizes from 1300px wide and down */
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1200px) {
     #right-about {
         padding-top: 30px;
         width: 30%;
@@ -646,7 +646,7 @@ h3 {
 }
 
 #bgd7 {
-    background: url("../images/event-planning1.jpg") no-repeat center center;
+    background: url("../images/event-planning1.webp") no-repeat center center;
     border-radius: 5%;
 }
 
